@@ -238,4 +238,4 @@ void PortA_Output(uint8_t out) {
 void PortE_Output(uint8_t out) {
 	GPIO_PORTE_DATA_R |= out; //sets the 1 bits
 	GPIO_PORTE_DATA_R &= (out | ~PORTE_USING); //clears the 0 bits
-}
+} Jullianwells 
